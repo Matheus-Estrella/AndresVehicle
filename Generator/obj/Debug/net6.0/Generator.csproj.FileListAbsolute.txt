@@ -1,0 +1,16 @@
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\bin\Debug\net6.0\Generator.deps.json
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\bin\Debug\net6.0\Generator.dll
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\bin\Debug\net6.0\Generator.pdb
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\bin\Debug\net6.0\Models.dll
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\bin\Debug\net6.0\Models.pdb
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\bin\Debug\net6.0\Models.dll.config
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\obj\Debug\net6.0\Generator.csproj.AssemblyReference.cache
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\obj\Debug\net6.0\Generator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\obj\Debug\net6.0\Generator.AssemblyInfoInputs.cache
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\obj\Debug\net6.0\Generator.AssemblyInfo.cs
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\obj\Debug\net6.0\Generator.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\obj\Debug\net6.0\Generator.csproj.Up2Date
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\obj\Debug\net6.0\Generator.dll
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\obj\Debug\net6.0\refint\Generator.dll
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\obj\Debug\net6.0\Generator.pdb
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\obj\Debug\net6.0\ref\Generator.dll
