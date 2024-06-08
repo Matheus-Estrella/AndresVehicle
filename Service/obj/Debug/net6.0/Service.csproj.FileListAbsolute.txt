@@ -16,3 +16,4 @@ C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Service\obj\Debug\net6.0\Servic
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Service\obj\Debug\net6.0\refint\Service.dll
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Service\obj\Debug\net6.0\Service.pdb
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Service\obj\Debug\net6.0\ref\Service.dll
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Service\obj\Debug\net6.0\Service.sourcelink.json

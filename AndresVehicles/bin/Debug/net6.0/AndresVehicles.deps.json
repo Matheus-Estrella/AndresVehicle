@@ -9,7 +9,8 @@
       "AndresVehicles/1.0.0": {
         "dependencies": {
           "Controller": "1.0.0",
-          "Generator": "1.0.0"
+          "Generator": "1.0.0",
+          "Injection": "1.0.0"
         },
         "runtime": {
           "AndresVehicles.dll": {}
@@ -136,11 +137,21 @@
       },
       "Generator/1.0.0": {
         "dependencies": {
+          "Controller": "1.0.0",
           "Models": "1.0.0",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "Generator.dll": {}
+        }
+      },
+      "Injection/1.0.0": {
+        "dependencies": {
+          "Generator": "1.0.0",
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "Injection.dll": {}
         }
       },
       "Models/1.0.0": {
@@ -276,6 +287,11 @@
       "sha512": ""
     },
     "Generator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Injection/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

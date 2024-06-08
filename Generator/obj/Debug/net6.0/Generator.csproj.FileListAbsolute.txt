@@ -14,3 +14,10 @@ C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\obj\Debug\net6.0\Gene
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\obj\Debug\net6.0\refint\Generator.dll
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\obj\Debug\net6.0\Generator.pdb
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\obj\Debug\net6.0\ref\Generator.dll
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\bin\Debug\net6.0\Controller.dll
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\bin\Debug\net6.0\Repository.dll
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\bin\Debug\net6.0\Service.dll
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\bin\Debug\net6.0\Controller.pdb
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\bin\Debug\net6.0\Repository.pdb
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\bin\Debug\net6.0\Service.pdb
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Generator\obj\Debug\net6.0\Generator.sourcelink.json

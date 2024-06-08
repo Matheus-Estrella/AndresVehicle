@@ -35,3 +35,6 @@ C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\AndresVehicles\bin\Debug\net6.0
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\AndresVehicles\bin\Debug\net6.0\Controller.pdb
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\AndresVehicles\bin\Debug\net6.0\Repository.pdb
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\AndresVehicles\bin\Debug\net6.0\Service.pdb
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\AndresVehicles\bin\Debug\net6.0\Injection.dll
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\AndresVehicles\bin\Debug\net6.0\Injection.pdb
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\AndresVehicles\obj\Debug\net6.0\AndresVehicles.sourcelink.json

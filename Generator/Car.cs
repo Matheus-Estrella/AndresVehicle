@@ -1,6 +1,7 @@
 ﻿using Models;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,6 +25,8 @@ namespace Generator
         #endregion
 
         #region Características da classe e construtor
+
+        [Key]
         public string _licensePlate { get; set; }
         public string _name { get; set; }
         public int _modelYear { get; set; }
