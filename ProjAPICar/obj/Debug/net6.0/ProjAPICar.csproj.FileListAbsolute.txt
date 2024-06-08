@@ -1,8 +1,0 @@
-C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\ProjAPICar\obj\Debug\net6.0\ProjAPICar.csproj.AssemblyReference.cache
-C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\ProjAPICar\obj\Debug\net6.0\ProjAPICar.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\ProjAPICar\obj\Debug\net6.0\ProjAPICar.AssemblyInfoInputs.cache
-C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\ProjAPICar\obj\Debug\net6.0\ProjAPICar.AssemblyInfo.cs
-C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\ProjAPICar\obj\Debug\net6.0\ProjAPICar.csproj.CoreCompileInputs.cache
-C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\ProjAPICar\obj\Debug\net6.0\ProjAPICar.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\ProjAPICar\obj\Debug\net6.0\ProjAPICar.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\ProjAPICar\obj\Debug\net6.0\ProjAPICar.sourcelink.json

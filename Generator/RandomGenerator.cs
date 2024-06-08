@@ -1,5 +1,5 @@
 ﻿using Controller;
-using Models;
+using GenDapperModels;
 using Newtonsoft.Json;
 
 namespace Tools
@@ -47,6 +47,42 @@ namespace Tools
         {
             "A","B","C","D","E","F","G","H","I","J","K","L","M",
             "N","O","P","Q","R","S","T","U","V","W","X","Y","Z"
+        }; 
+        private List<string> _names = new()
+        {
+            "Emma", "Olivia", "Ava", "Sophia", "Isabella",
+            "Mia", "Charlotte", "Amelia", "Evelyn", "Abigail",
+            "Harper", "Emily", "Elizabeth", "Sofia", "Avery",
+            "Ella", "Scarlett", "Grace", "Chloe", "Victoria",
+            "Riley", "Aria", "Lily", "Aubrey", "Zoey",
+            "Liam", "Noah", "Oliver", "Elijah", "William",
+            "James", "Benjamin", "Lucas", "Henry", "Alexander",
+            "Mason", "Michael", "Ethan", "Daniel", "Jacob",
+            "Logan", "Jackson", "Levi", "Sebastian", "Mateo",
+            "Jack", "Owen", "Theodore", "Aiden", "Samuel"
+        };
+        private List<string> _lastNames = new()
+        {
+            "Smith", "Johnson", "Williams", "Brown", "Jones",
+            "Miller", "Davis", "Garcia", "Rodriguez", "Wilson",
+            "Martinez", "Anderson", "Taylor", "Thomas", "Hernandez",
+            "Moore", "Martin", "Jackson", "Thompson", "White",
+            "Lopez", "Lee", "Gonzalez", "Harris", "Clark",
+            "Lewis", "Robinson", "Walker", "Perez", "Hall",
+            "Young", "Allen", "Sanchez", "Wright", "King",
+            "Scott", "Green", "Baker", "Adams", "Nelson",
+            "Hill", "Ramirez", "Campbell", "Mitchell", "Roberts",
+            "Carter", "Phillips", "Evans", "Turner", "Torres"
+        };
+        private List<string> _jobTitles = new()
+        {
+            "Gerente",
+            "Consultor",
+            "Vendedor de Veículos",
+            "Técnico Automotivo",
+            "Recepcionista",
+            "Especialista em Marketing",
+            "Faxineira",
         };
 
         public int StringRandomizer(List<string> list)
@@ -100,6 +136,22 @@ namespace Tools
         #endregion
 
         #region Para geração de serviços
+        #endregion
+
+        #region Para geração Pessoa
+
+        #endregion
+
+        #region Para geração de ...
+
+        #endregion
+
+        #region Para geração de ...
+
+        #endregion
+
+        #region Para geração de ...
+
         #endregion
 
         #region Para geração de ...

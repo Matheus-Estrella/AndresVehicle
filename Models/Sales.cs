@@ -4,12 +4,17 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Models;
 
-namespace Models
+namespace GenDapperModels
 {
     public class Sales : Generic
     {
+        [Key]
+        int _id { get; set; }
+        Card _card { get; set; }
+        Ticket _ticket { get; set; }
+        Pix _pix { get; set; }
+        DateOnly _payDay {  get; set; }
 
         #region Características da classe e construtor
 
@@ -29,11 +34,5 @@ namespace Models
             _tableName = $"TB_{class_name}";
         }
         #endregion
-
-        [Key]
-        int _id { get; set; }
-        Car _car { get; set; }
-
-
     }
 }

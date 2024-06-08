@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Generator\Tools.csproj" />
-    <ProjectReference Include="..\Models\Models.csproj" />
+    <ProjectReference Include="..\Models\GenDapperModels.csproj" />
   </ItemGroup>
 
 </Project>

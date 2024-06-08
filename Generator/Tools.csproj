@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Controller\Controller.csproj" />
-    <ProjectReference Include="..\Models\Models.csproj" />
+    <ProjectReference Include="..\Models\GenDapperModels.csproj" />
   </ItemGroup>
 
 </Project>

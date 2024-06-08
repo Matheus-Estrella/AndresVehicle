@@ -11,7 +11,7 @@
     <ProjectReference Include="..\Controller\Controller.csproj" />
     <ProjectReference Include="..\Generator\Tools.csproj" />
     <ProjectReference Include="..\Injection\Injection.csproj" />
-    <ProjectReference Include="..\Models\Models.csproj" />
+    <ProjectReference Include="..\Models\GenDapperModels.csproj" />
   </ItemGroup>
 
 </Project>

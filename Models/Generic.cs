@@ -2,7 +2,7 @@
 using System.Reflection;
 using System.Text;
 
-namespace Models
+namespace GenDapperModels
 {
     public abstract class Generic
     {

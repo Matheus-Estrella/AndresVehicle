@@ -1,7 +1,7 @@
 ﻿
 using Controller;
 using Injection;
-using Models;
+using GenDapperModels;
 using Tools;
 
 #region DB Injections Dapper

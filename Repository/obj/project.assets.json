@@ -208,7 +208,7 @@
           }
         }
       },
-      "Models/1.0.0": {
+      "GenDapperModels/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -216,10 +216,10 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
-          "bin/placeholder/Models.dll": {}
+          "bin/placeholder/GenDapperModels.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Models.dll": {}
+          "bin/placeholder/GenDapperModels.dll": {}
         }
       }
     }
@@ -655,15 +655,15 @@
         "version.txt"
       ]
     },
-    "Models/1.0.0": {
+    "GenDapperModels/1.0.0": {
       "type": "project",
-      "path": "../Models/Models.csproj",
-      "msbuildProject": "../Models/Models.csproj"
+      "path": "../Models/GenDapperModels.csproj",
+      "msbuildProject": "../Models/GenDapperModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Models >= 1.0.0",
+      "GenDapperModels >= 1.0.0",
       "System.Configuration.ConfigurationManager >= 8.0.0",
       "System.Data.SqlClient >= 4.8.6"
     ]
@@ -674,11 +674,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Repository\\Repository.csproj",
+      "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Repository\\obj\\",
+      "outputPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -695,8 +695,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj"
+            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Models\\GenDapperModels.csproj": {
+              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Models\\GenDapperModels.csproj"
             }
           }
         }

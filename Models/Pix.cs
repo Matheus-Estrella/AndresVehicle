@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Models
+namespace GenDapperModels
 {
     public class Pix : Generic
     {
@@ -32,5 +32,7 @@ namespace Models
         int _id { get; set; }
         string _pixKey { get; set; }
         PixType _type { get; set; }
+        Card _card { get; set; }
+
     }
 }

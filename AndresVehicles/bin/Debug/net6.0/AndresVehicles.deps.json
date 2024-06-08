@@ -9,8 +9,8 @@
       "AndresVehicles/1.0.0": {
         "dependencies": {
           "Controller": "1.0.0",
+          "GenDapperModels": "1.0.0",
           "Injection": "1.0.0",
-          "Models": "1.0.0",
           "Tools": "1.0.0"
         },
         "runtime": {
@@ -129,34 +129,34 @@
       "System.Security.Principal.Windows/4.7.0": {},
       "Controller/1.0.0": {
         "dependencies": {
-          "Models": "1.0.0",
+          "GenDapperModels": "1.0.0",
           "Service": "1.0.0"
         },
         "runtime": {
           "Controller.dll": {}
         }
       },
+      "GenDapperModels/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.1.35",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "GenDapperModels.dll": {}
+        }
+      },
       "Injection/1.0.0": {
         "dependencies": {
-          "Models": "1.0.0",
+          "GenDapperModels": "1.0.0",
           "Tools": "1.0.0"
         },
         "runtime": {
           "Injection.dll": {}
         }
       },
-      "Models/1.0.0": {
-        "dependencies": {
-          "Dapper": "2.1.35",
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "Models.dll": {}
-        }
-      },
       "Repository/1.0.0": {
         "dependencies": {
-          "Models": "1.0.0",
+          "GenDapperModels": "1.0.0",
           "System.Configuration.ConfigurationManager": "8.0.0",
           "System.Data.SqlClient": "4.8.6"
         },
@@ -166,7 +166,7 @@
       },
       "Service/1.0.0": {
         "dependencies": {
-          "Models": "1.0.0",
+          "GenDapperModels": "1.0.0",
           "Repository": "1.0.0"
         },
         "runtime": {
@@ -176,7 +176,7 @@
       "Tools/1.0.0": {
         "dependencies": {
           "Controller": "1.0.0",
-          "Models": "1.0.0",
+          "GenDapperModels": "1.0.0",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
@@ -287,12 +287,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Injection/1.0.0": {
+    "GenDapperModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Models/1.0.0": {
+    "Injection/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndresVehicles", "AndresVehicles\AndresVehicles.csproj", "{DF6AD3F5-7768-4F41-B157-D7B48E41BF16}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{41A8B0A4-D6BC-41BC-8E01-D8EEC58CB8C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenDapperModels", "Models\GenDapperModels.csproj", "{41A8B0A4-D6BC-41BC-8E01-D8EEC58CB8C8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controller", "Controller\Controller.csproj", "{56B0EEE0-B57A-48F2-9BB8-579AC2C193F5}"
 EndProject
@@ -16,6 +16,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tools", "Generator\Tools.csproj", "{84A6D332-47A5-4229-8AE0-AE68A269C6A8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Injection", "Injection\Injection.csproj", "{F872A3F0-5932-4F6D-B840-B7FF27A588D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dapper", "Dapper", "{D25532AB-6FD5-4078-AE46-EC07D3E70F9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Others", "Others", "{672AFC97-CA0C-42AE-9668-EEA87F2D252E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +58,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41A8B0A4-D6BC-41BC-8E01-D8EEC58CB8C8} = {D25532AB-6FD5-4078-AE46-EC07D3E70F9C}
+		{56B0EEE0-B57A-48F2-9BB8-579AC2C193F5} = {D25532AB-6FD5-4078-AE46-EC07D3E70F9C}
+		{EB707F57-0243-4D88-943A-0AB0C7D67E5B} = {D25532AB-6FD5-4078-AE46-EC07D3E70F9C}
+		{64E50EA1-7F26-40CC-89EB-BCDD6BBAAF22} = {D25532AB-6FD5-4078-AE46-EC07D3E70F9C}
+		{84A6D332-47A5-4229-8AE0-AE68A269C6A8} = {672AFC97-CA0C-42AE-9668-EEA87F2D252E}
+		{F872A3F0-5932-4F6D-B840-B7FF27A588D5} = {D25532AB-6FD5-4078-AE46-EC07D3E70F9C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3EC39CD-CAEE-4470-B111-CF4E2C819C8C}

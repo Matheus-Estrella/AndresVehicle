@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Service\\Service.csproj": {}
+    "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Service\\Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj": {
+    "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Models\\GenDapperModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj",
-        "projectName": "Models",
-        "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Models\\GenDapperModels.csproj",
+        "projectName": "GenDapperModels",
+        "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Models\\GenDapperModels.csproj",
         "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\obj\\",
+        "outputPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Repository\\Repository.csproj": {
+    "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,8 +98,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj"
+              "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Models\\GenDapperModels.csproj": {
+                "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Models\\GenDapperModels.csproj"
               }
             }
           }
@@ -148,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Service\\Service.csproj": {
+    "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Service\\obj\\",
+        "outputPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,11 +172,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj"
+              "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Models\\GenDapperModels.csproj": {
+                "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Models\\GenDapperModels.csproj"
               },
-              "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Repository\\Repository.csproj"
+              "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Repository\\Repository.csproj"
               }
             }
           }

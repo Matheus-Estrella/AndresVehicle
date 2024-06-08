@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vkaNEjJ4dHTp1Td7vxI3drnsMf8AsgZaY0l/Iz0QLZ9+2qodpxDTK9EGzWUAs8GyQUkATYJrOzRGQvHe+QWkgw==",
+  "dgSpecHash": "/NyB7GMa6sYHXcRbt0it/mlKZsFUmSLYktK0tCjRvCKdIcIbA8Ejm3hGKWnYwAZ0ZuT9DxvmqqPDcT2qxu8jpA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj",
+  "projectFilePath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Models\\GenDapperModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matheus\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\Matheus\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"

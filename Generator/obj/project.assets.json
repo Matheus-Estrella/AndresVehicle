@@ -212,7 +212,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Models": "1.0.0",
+          "GenDapperModels": "1.0.0",
           "Service": "1.0.0"
         },
         "compile": {
@@ -222,7 +222,7 @@
           "bin/placeholder/Controller.dll": {}
         }
       },
-      "Models/1.0.0": {
+      "GenDapperModels/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -230,17 +230,17 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
-          "bin/placeholder/Models.dll": {}
+          "bin/placeholder/GenDapperModels.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Models.dll": {}
+          "bin/placeholder/GenDapperModels.dll": {}
         }
       },
       "Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Models": "1.0.0",
+          "GenDapperModels": "1.0.0",
           "System.Configuration.ConfigurationManager": "8.0.0",
           "System.Data.SqlClient": "4.8.6"
         },
@@ -255,7 +255,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Models": "1.0.0",
+          "GenDapperModels": "1.0.0",
           "Repository": "1.0.0"
         },
         "compile": {
@@ -703,10 +703,10 @@
       "path": "../Controller/Controller.csproj",
       "msbuildProject": "../Controller/Controller.csproj"
     },
-    "Models/1.0.0": {
+    "GenDapperModels/1.0.0": {
       "type": "project",
-      "path": "../Models/Models.csproj",
-      "msbuildProject": "../Models/Models.csproj"
+      "path": "../Models/GenDapperModels.csproj",
+      "msbuildProject": "../Models/GenDapperModels.csproj"
     },
     "Repository/1.0.0": {
       "type": "project",
@@ -722,7 +722,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Controller >= 1.0.0",
-      "Models >= 1.0.0",
+      "GenDapperModels >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3"
     ]
   },
@@ -732,11 +732,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Tools.csproj",
+      "projectUniqueName": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Generator\\Tools.csproj",
       "projectName": "Tools",
-      "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Tools.csproj",
+      "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Generator\\Tools.csproj",
       "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\obj\\",
+      "outputPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Generator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -753,11 +753,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Controller\\Controller.csproj": {
-              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Controller\\Controller.csproj"
+            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Controller\\Controller.csproj": {
+              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Controller\\Controller.csproj"
             },
-            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj"
+            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Models\\GenDapperModels.csproj": {
+              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Models\\GenDapperModels.csproj"
             }
           }
         }

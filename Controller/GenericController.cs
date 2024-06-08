@@ -1,4 +1,4 @@
-﻿using Models;
+﻿using GenDapperModels;
 using Service;
 
 namespace Controller

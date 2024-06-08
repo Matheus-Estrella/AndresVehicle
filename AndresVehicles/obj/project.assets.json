@@ -212,7 +212,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Models": "1.0.0",
+          "GenDapperModels": "1.0.0",
           "Service": "1.0.0"
         },
         "compile": {
@@ -222,11 +222,25 @@
           "bin/placeholder/Controller.dll": {}
         }
       },
+      "GenDapperModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Dapper": "2.1.35",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/GenDapperModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GenDapperModels.dll": {}
+        }
+      },
       "Injection/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Models": "1.0.0",
+          "GenDapperModels": "1.0.0",
           "Tools": "1.0.0"
         },
         "compile": {
@@ -236,25 +250,11 @@
           "bin/placeholder/Injection.dll": {}
         }
       },
-      "Models/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Dapper": "2.1.35",
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "compile": {
-          "bin/placeholder/Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Models.dll": {}
-        }
-      },
       "Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Models": "1.0.0",
+          "GenDapperModels": "1.0.0",
           "System.Configuration.ConfigurationManager": "8.0.0",
           "System.Data.SqlClient": "4.8.6"
         },
@@ -269,7 +269,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Models": "1.0.0",
+          "GenDapperModels": "1.0.0",
           "Repository": "1.0.0"
         },
         "compile": {
@@ -284,7 +284,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Controller": "1.0.0",
-          "Models": "1.0.0",
+          "GenDapperModels": "1.0.0",
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
@@ -732,15 +732,15 @@
       "path": "../Controller/Controller.csproj",
       "msbuildProject": "../Controller/Controller.csproj"
     },
+    "GenDapperModels/1.0.0": {
+      "type": "project",
+      "path": "../Models/GenDapperModels.csproj",
+      "msbuildProject": "../Models/GenDapperModels.csproj"
+    },
     "Injection/1.0.0": {
       "type": "project",
       "path": "../Injection/Injection.csproj",
       "msbuildProject": "../Injection/Injection.csproj"
-    },
-    "Models/1.0.0": {
-      "type": "project",
-      "path": "../Models/Models.csproj",
-      "msbuildProject": "../Models/Models.csproj"
     },
     "Repository/1.0.0": {
       "type": "project",
@@ -761,8 +761,8 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Controller >= 1.0.0",
+      "GenDapperModels >= 1.0.0",
       "Injection >= 1.0.0",
-      "Models >= 1.0.0",
       "Tools >= 1.0.0"
     ]
   },
@@ -772,11 +772,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\AndresVehicles.csproj",
+      "projectUniqueName": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\AndresVehicles\\AndresVehicles.csproj",
       "projectName": "AndresVehicles",
-      "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\AndresVehicles.csproj",
+      "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\AndresVehicles\\AndresVehicles.csproj",
       "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\obj\\",
+      "outputPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\AndresVehicles\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -793,17 +793,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Controller\\Controller.csproj": {
-              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Controller\\Controller.csproj"
+            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Controller\\Controller.csproj": {
+              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Controller\\Controller.csproj"
             },
-            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Tools.csproj": {
-              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Tools.csproj"
+            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Generator\\Tools.csproj": {
+              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Generator\\Tools.csproj"
             },
-            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Injection\\Injection.csproj": {
-              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Injection\\Injection.csproj"
+            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Injection\\Injection.csproj": {
+              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Injection\\Injection.csproj"
             },
-            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj"
+            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Models\\GenDapperModels.csproj": {
+              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\AndresVehicles\\Models\\GenDapperModels.csproj"
             }
           }
         }

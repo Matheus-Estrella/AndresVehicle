@@ -1,5 +1,5 @@
 ﻿using Dapper;
-using Models;
+using GenDapperModels;
 using System.Configuration;
 using System.Data.SqlClient;
 
