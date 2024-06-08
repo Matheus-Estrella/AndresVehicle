@@ -1,6 +1,6 @@
 ﻿using Controller;
-using Generator;
 using Models;
+using Tools;
 namespace Injection
 {
     public class SqlInjection
@@ -46,7 +46,7 @@ namespace Injection
         }
         public void DB_CarInject()
         {
-            var lst = ReadFiles.GetData<Car>();
+            var lst = ReadFile.GetData<Car>();
             int count = 1;
             foreach (var car in lst)
             {

@@ -13,9 +13,9 @@ C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Controller\obj\Debug\net6.0\Con
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Controller\obj\Debug\net6.0\Controller.AssemblyInfoInputs.cache
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Controller\obj\Debug\net6.0\Controller.AssemblyInfo.cs
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Controller\obj\Debug\net6.0\Controller.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Controller\obj\Debug\net6.0\Controller.sourcelink.json
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Controller\obj\Debug\net6.0\Controller.csproj.Up2Date
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Controller\obj\Debug\net6.0\Controller.dll
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Controller\obj\Debug\net6.0\refint\Controller.dll
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Controller\obj\Debug\net6.0\Controller.pdb
 C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Controller\obj\Debug\net6.0\ref\Controller.dll
-C:\Users\Matheus\TrabalhosEstagio\AndresVehicles\Controller\obj\Debug\net6.0\Controller.sourcelink.json

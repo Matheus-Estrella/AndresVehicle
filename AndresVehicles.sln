@@ -13,11 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{64E50EA1-7F26-40CC-89EB-BCDD6BBAAF22}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generator", "Generator\Generator.csproj", "{84A6D332-47A5-4229-8AE0-AE68A269C6A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tools", "Generator\Tools.csproj", "{84A6D332-47A5-4229-8AE0-AE68A269C6A8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Injection", "Injection\Injection.csproj", "{F872A3F0-5932-4F6D-B840-B7FF27A588D5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjAPICar", "ProjAPICar\ProjAPICar.csproj", "{509FBAE2-61D4-4F79-806A-0508E2CE2E0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +51,6 @@ Global
 		{F872A3F0-5932-4F6D-B840-B7FF27A588D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F872A3F0-5932-4F6D-B840-B7FF27A588D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F872A3F0-5932-4F6D-B840-B7FF27A588D5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{509FBAE2-61D4-4F79-806A-0508E2CE2E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{509FBAE2-61D4-4F79-806A-0508E2CE2E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{509FBAE2-61D4-4F79-806A-0508E2CE2E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{509FBAE2-61D4-4F79-806A-0508E2CE2E0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

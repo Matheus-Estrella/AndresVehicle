@@ -31,11 +31,14 @@
               "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Controller\\Controller.csproj": {
                 "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Controller\\Controller.csproj"
               },
-              "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Generator.csproj": {
-                "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Generator.csproj"
+              "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Tools.csproj": {
+                "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Tools.csproj"
               },
               "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Injection\\Injection.csproj": {
                 "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Injection\\Injection.csproj"
+              },
+              "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj"
               }
             }
           }
@@ -141,12 +144,12 @@
         }
       }
     },
-    "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Generator.csproj": {
+    "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Generator.csproj",
-        "projectName": "Generator",
-        "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Generator.csproj",
+        "projectUniqueName": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Tools.csproj",
+        "projectName": "Tools",
+        "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Tools.csproj",
         "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\obj\\",
         "projectStyle": "PackageReference",
@@ -238,8 +241,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Generator.csproj": {
-                "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Generator.csproj"
+              "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Tools.csproj": {
+                "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Tools.csproj"
               },
               "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj": {
                 "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj"

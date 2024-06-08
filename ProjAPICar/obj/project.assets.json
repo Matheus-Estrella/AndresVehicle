@@ -3899,21 +3899,6 @@
           "bin/placeholder/Controller.dll": {}
         }
       },
-      "Generator/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Controller": "1.0.0",
-          "Models": "1.0.0",
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "compile": {
-          "bin/placeholder/Generator.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Generator.dll": {}
-        }
-      },
       "Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3955,6 +3940,21 @@
         },
         "runtime": {
           "bin/placeholder/Service.dll": {}
+        }
+      },
+      "Tools/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Controller": "1.0.0",
+          "Models": "1.0.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Tools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tools.dll": {}
         }
       }
     }
@@ -11427,11 +11427,6 @@
       "path": "../Controller/Controller.csproj",
       "msbuildProject": "../Controller/Controller.csproj"
     },
-    "Generator/1.0.0": {
-      "type": "project",
-      "path": "../Generator/Generator.csproj",
-      "msbuildProject": "../Generator/Generator.csproj"
-    },
     "Models/1.0.0": {
       "type": "project",
       "path": "../Models/Models.csproj",
@@ -11446,16 +11441,21 @@
       "type": "project",
       "path": "../Service/Service.csproj",
       "msbuildProject": "../Service/Service.csproj"
+    },
+    "Tools/1.0.0": {
+      "type": "project",
+      "path": "../Generator/Tools.csproj",
+      "msbuildProject": "../Generator/Tools.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Generator >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.29",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.29",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.16",
       "Models >= 1.0.0",
-      "Swashbuckle.AspNetCore >= 6.5.0"
+      "Swashbuckle.AspNetCore >= 6.5.0",
+      "Tools >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11485,8 +11485,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Generator.csproj": {
-              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Generator.csproj"
+            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Tools.csproj": {
+              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Tools.csproj"
             },
             "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj": {
               "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj"

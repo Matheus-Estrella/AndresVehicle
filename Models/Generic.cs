@@ -6,11 +6,21 @@ namespace Models
 {
     public abstract class Generic
     {
+        // Para o gerador de arquivos json desta classe
+        readonly string path = @"C:\Users\Matheus\TrabalhosEstagio\AndresVehicles";
+        readonly string file;
+        readonly string class_name;
+        // Para manipular a tabela do banco de dados sql
+        readonly string _tableName;
+        readonly string _inforRestrained;
 
-        public virtual string GetPath() { return string.Empty; }
+        public virtual string GetPath() { return this.path; }
         public virtual string GetFile() { return string.Empty; }
         public virtual string GetTableName() { return string.Empty; }
         public virtual string GetRestrained() { return string.Empty; }
+
+
+        // PROBLEMA --> Não funciona este método com atributos aninhados (ou seja, classes que conhenham classes)
 
         public static DynamicParameters GetParameters<T>(T obj)
         {
@@ -23,7 +33,7 @@ namespace Models
             }
             return _parameters;
         }
-        public static string GenerateInsertCommand<T>(T obj, string _tableName, string _inforRestrained) // Colocar variável string para ignorar
+        public static string GenerateInsertCommand<T>(T obj, string _tableName, string _inforRestrained) 
         {
             PropertyInfo[] _properties = obj.GetType().GetProperties().ToArray();
 

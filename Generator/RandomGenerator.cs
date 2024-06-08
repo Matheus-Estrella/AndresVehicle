@@ -1,7 +1,8 @@
 ﻿using Controller;
+using Models;
 using Newtonsoft.Json;
 
-namespace Generator
+namespace Tools
 {
     public class RandomGenerator
     {

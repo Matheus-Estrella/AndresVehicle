@@ -222,27 +222,12 @@
           "bin/placeholder/Controller.dll": {}
         }
       },
-      "Generator/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Controller": "1.0.0",
-          "Models": "1.0.0",
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "compile": {
-          "bin/placeholder/Generator.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Generator.dll": {}
-        }
-      },
       "Injection/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Generator": "1.0.0",
-          "Models": "1.0.0"
+          "Models": "1.0.0",
+          "Tools": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Injection.dll": {}
@@ -292,6 +277,21 @@
         },
         "runtime": {
           "bin/placeholder/Service.dll": {}
+        }
+      },
+      "Tools/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Controller": "1.0.0",
+          "Models": "1.0.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Tools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tools.dll": {}
         }
       }
     }
@@ -732,11 +732,6 @@
       "path": "../Controller/Controller.csproj",
       "msbuildProject": "../Controller/Controller.csproj"
     },
-    "Generator/1.0.0": {
-      "type": "project",
-      "path": "../Generator/Generator.csproj",
-      "msbuildProject": "../Generator/Generator.csproj"
-    },
     "Injection/1.0.0": {
       "type": "project",
       "path": "../Injection/Injection.csproj",
@@ -756,13 +751,19 @@
       "type": "project",
       "path": "../Service/Service.csproj",
       "msbuildProject": "../Service/Service.csproj"
+    },
+    "Tools/1.0.0": {
+      "type": "project",
+      "path": "../Generator/Tools.csproj",
+      "msbuildProject": "../Generator/Tools.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Controller >= 1.0.0",
-      "Generator >= 1.0.0",
-      "Injection >= 1.0.0"
+      "Injection >= 1.0.0",
+      "Models >= 1.0.0",
+      "Tools >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -795,11 +796,14 @@
             "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Controller\\Controller.csproj": {
               "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Controller\\Controller.csproj"
             },
-            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Generator.csproj": {
-              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Generator.csproj"
+            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Tools.csproj": {
+              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Generator\\Tools.csproj"
             },
             "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Injection\\Injection.csproj": {
               "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Injection\\Injection.csproj"
+            },
+            "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\Matheus\\TrabalhosEstagio\\AndresVehicles\\Models\\Models.csproj"
             }
           }
         }

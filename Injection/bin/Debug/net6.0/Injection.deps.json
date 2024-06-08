@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "Injection/1.0.0": {
         "dependencies": {
-          "Generator": "1.0.0",
-          "Models": "1.0.0"
+          "Models": "1.0.0",
+          "Tools": "1.0.0"
         },
         "runtime": {
           "Injection.dll": {}
@@ -134,16 +134,6 @@
           "Controller.dll": {}
         }
       },
-      "Generator/1.0.0": {
-        "dependencies": {
-          "Controller": "1.0.0",
-          "Models": "1.0.0",
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "Generator.dll": {}
-        }
-      },
       "Models/1.0.0": {
         "dependencies": {
           "Dapper": "2.1.35",
@@ -170,6 +160,16 @@
         },
         "runtime": {
           "Service.dll": {}
+        }
+      },
+      "Tools/1.0.0": {
+        "dependencies": {
+          "Controller": "1.0.0",
+          "Models": "1.0.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "Tools.dll": {}
         }
       }
     }
@@ -276,11 +276,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Generator/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Models/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -292,6 +287,11 @@
       "sha512": ""
     },
     "Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tools/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
